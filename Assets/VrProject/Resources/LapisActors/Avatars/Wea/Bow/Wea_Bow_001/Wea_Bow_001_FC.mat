@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wea_Bow_001_FC
+  m_Shader: {fileID: 4800000, guid: 32477ef31a4c2de48a28d17761bee57c, type: 3}
+  m_ShaderKeywords: ANISOMODE_KAJIYAKAY_T MODE_NONE _IS_LIGHTCOLOR_AP_RIMLIGHT_ON
+    _IS_LIGHTCOLOR_RIMLIGHT_ON _MODE_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FeatureTex:
+        m_Texture: {fileID: 2800000, guid: b9d0bce5ee8c48443b1c484f6a1555fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a47816e6e59bba24891b05d90aa82cc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTex:
+        m_Texture: {fileID: 2800000, guid: 6524a904a8148fc448a075e976641eae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: 422e90d891e6cf64b879e422e344c929, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - ANISOMODE: 1
+    - _AnisoOffset: 0.376
+    - _Cutoff: 0.5
+    - _LightRadiance: 1
+    - _Outline: 1.2
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0.1098, g: 0.0625, b: 0.023, a: 1}
+    - _RimParam: {r: -1, g: 10, b: 5, a: 1}
